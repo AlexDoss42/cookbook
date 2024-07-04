@@ -12,8 +12,8 @@ import { NavBar } from './NavBar';
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <h1>LET HIM COOKBOOK!</h1>
+      {/* <NavBar /> */}
+      <h1 style={{ marginTop: "0" }}>LET HIM COOKBOOK!</h1>
       <p>NOT the annoying life store section</p>
       <h2>Recipe Name</h2>
       <p>Recipe Author</p>
