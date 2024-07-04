@@ -1,0 +1,6 @@
+.highlights {
+    display: flex;
+    justify-content: space-between;
+    max-width: 50VW;
+    margin: 10px auto;
+}
