@@ -1,0 +1,9 @@
+#nutritionalFactsList {
+    list-style-type: none;
+    display: inline-block;
+}
+
+#nutritionalFactsList li {
+    display: inline-block;
+    margin: 0 30px;
+}

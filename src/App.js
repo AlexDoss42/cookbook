@@ -7,7 +7,7 @@ import { NutritionalFacts } from './Components/NutritionalFacts';
 import { ReviewHighlights } from './Components/ReviewHighlights';
 import { ReviewList } from './Components/ReviewList';
 import { Time } from './Components/Time';
-import { NavBar } from './Components/NavBar';
+// import { NavBar } from './Components/NavBar';
 
 
 function App() {
