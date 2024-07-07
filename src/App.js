@@ -6,7 +6,8 @@ import { LeaveAReview } from './Components/LeaveAReview';
 import { NutritionalFacts } from './Components/NutritionalFacts';
 import { ReviewHighlights } from './Components/ReviewHighlights';
 import { ReviewList } from './Components/ReviewList';
-import { NavBar } from './NavBar';
+import { Time } from './Components/Time';
+import { NavBar } from './Components/NavBar';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <h2>Recipe Name</h2>
       <p>Recipe Author</p>
       <ReviewHighlights />
+      <Time />
       <NutritionalFacts />
       <Ingredients />
       <Instructions />
