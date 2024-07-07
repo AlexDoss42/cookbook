@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Time = () => {
   return (
-    <div> 
+    <div className='section'> 
         <p>Total Time</p>
         <p>Additional Time</p>
         <p>Prep Time</p>

@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Instructions = () => {
   return (
-    <div>
+    <div className='section'>
     <h3>Cooking Instructions</h3>
     <ol>
       <li>get the stuff</li>
