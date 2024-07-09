@@ -1,15 +1,15 @@
 import React from 'react'
 
-export const Ingredients = () => {
+export const Ingredients = ({ Ingredients }) => {
+  console.log(Ingredients)
   return (
     <div className='section'> 
         <h3>Ingredients List</h3>
         
         <ul>
-        <li>stuff</li>
-        <li>more stuff</li>
-        <li>spicy stuff</li>
-        <li>sweet stuff</li>
+          {Ingredients.map((ingredient) => {
+            return<li>{ingredient}</li>
+          })}
         </ul>
     </div>
   )
