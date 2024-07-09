@@ -18,13 +18,13 @@ function App() {
       {/* <NavBar /> */}
       <h1 style={{ marginTop: "0" }}>LET HIM COOKBOOK!</h1>
       <p>NOT the annoying life store section</p>
-      <h2>Recipe Name</h2>
-      <p>Recipe Author</p>
+      <h2>{data.recipe_name}</h2>
+      <p>{data.author}</p>
       <ReviewHighlights />
-      <Time />
-      <NutritionalFacts />
-      <Ingredients />
-      <Instructions />
+      <Time time={data.time}/>
+      <NutritionalFacts nutritionalFacts={ data.nutritional_facts }/>
+      <Ingredients Ingredients={ data.ingedients }/>
+      <Instructions Instructions={ data.instructions }/>
       <LeaveAReview />
       <ReviewList />
     </div>
