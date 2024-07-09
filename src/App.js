@@ -12,7 +12,6 @@ import data from './data.json';
 
 
 function App() {
-  console.log(123, data);
   return (
     <div className="App">
       {/* <NavBar /> */}
@@ -21,8 +20,8 @@ function App() {
       <h2>{data.recipe_name}</h2>
       <p>{data.author}</p>
       <ReviewHighlights />
-      <Time time={data.time}/>
-      <NutritionalFacts nutritionalFacts={ data.nutritional_facts }/>
+      <Time timeData={data.time}/>
+      <NutritionalFacts nutritionalFacts={ data.nutritional_facts } servings={data.servings} />
       <Ingredients Ingredients={ data.ingedients }/>
       <Instructions Instructions={ data.instructions }/>
       <LeaveAReview />
