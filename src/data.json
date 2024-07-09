@@ -1,0 +1,38 @@
+{
+    "recipe_id": 1,
+    "recipe_name": "Creamy Beef & Cheese Burritos",
+    "author": "aussiefitness",
+    "time": {
+        "total": "90",
+        "additional": "15",
+        "prep": "5",
+        "cook": "70"
+    },
+    "servings": "6",
+    "nutritional_facts": {
+        "calories": "359",
+        "carbs": "7",
+        "fat": "16",
+        "protein": "42"
+    },
+    "ingedients": [
+        "1/2 Diced White Onion",
+        "700g Extra Lean Beef Mince",
+        "4 Diced Garlic Cloves",
+        "1 tsp Chili Powder",
+        "1/2 tsp ground cumin",
+        "1 tsp salt",
+        "1 tsp black pepper",
+        "2 tsp smoked paprika",
+        "1 tsp garlic powder",
+        "1.5 tsp oregano",
+        "50g Tomato Paste",
+        "100g softened light cream cheese",
+        "80g low fat cheese",
+        "120g cheese",
+        "6 low calorie tortillas"
+    ],
+    "instructions": [
+        
+    ]
+}
