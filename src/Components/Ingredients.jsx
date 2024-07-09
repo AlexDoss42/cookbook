@@ -5,7 +5,6 @@ export const Ingredients = ({ Ingredients }) => {
   return (
     <div className='section'> 
         <h3>Ingredients List</h3>
-        
         <ul>
           {Ingredients.map((ingredient) => {
             return<li>{ingredient}</li>
