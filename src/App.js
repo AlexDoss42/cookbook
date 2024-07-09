@@ -8,9 +8,11 @@ import { ReviewHighlights } from './Components/ReviewHighlights';
 import { ReviewList } from './Components/ReviewList';
 import { Time } from './Components/Time';
 // import { NavBar } from './Components/NavBar';
+import data from './data.json';
 
 
 function App() {
+  console.log(123, data);
   return (
     <div className="App">
       {/* <NavBar /> */}
