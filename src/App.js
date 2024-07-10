@@ -19,6 +19,7 @@ function App() {
       <p>NOT the annoying life store section</p>
       <h2>{data.recipe_name}</h2>
       <p>{data.author}</p>
+      <image src={data.img_url} alt={data.recipe_name}/>
       <ReviewHighlights />
       <Time timeData={data.time}/>
       <NutritionalFacts nutritionalFacts={ data.nutritional_facts } servings={data.servings} />
