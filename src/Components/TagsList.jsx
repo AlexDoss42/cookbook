@@ -6,7 +6,7 @@ export const TagsList = ({tagData}) => {
   return (
     <div className='section'>
         <h2>Tags</h2>
-        <ul>
+        <ul className='tag-list'>
             {tags.map((tag) => {
                 return <Tag data={tag} />
             })}
