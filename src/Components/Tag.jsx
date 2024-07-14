@@ -1,7 +1,7 @@
 import React from 'react'
 
-export const Tag = () => {
+export const Tag = ({data}) => {
   return (
-    <div>Tag</div>
+    <li>{data}</li>
   )
 }
