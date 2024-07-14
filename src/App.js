@@ -16,7 +16,6 @@ function App() {
     <div className="App">
       {/* <NavBar /> */}
       <h1 style={{ marginTop: "0" }}>LET HIM COOKBOOK!</h1>
-      <p>NOT the annoying life store section</p>
       <h2>{data.recipe_name}</h2>
       <p>{data.author}</p>
       <img className='recipe-image' src={data.img_url} alt={data.recipe_name}/>
