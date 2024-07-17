@@ -21,8 +21,8 @@ function App() {
       <h2>{data.recipe_name}</h2>
       <p>{data.author}</p>
       <img className='recipe-image' src={data.img_url} alt={data.recipe_name}/>
-      <TagsList tagData={tagData}/>
       <ReviewHighlights />
+      <TagsList tagData={tagData}/>
       <Time timeData={data.time}/>
       <NutritionalFacts nutritionalFacts={ data.nutritional_facts } servings={data.servings} />
       <Ingredients Ingredients={ data.ingedients }/>
