@@ -1,3 +1,4 @@
 .ingredients-list {
     text-align: left;
+    columns: 2;
 }
