@@ -3,9 +3,10 @@ import './Tag.css'
 
 export const Tag = ({data}) => {
   return (
-    <div className='tag'>
-    <li>{data}</li>
-    <button>X</button>
-    </div>
+    <li className='tag'>
+        {data}
+        <button className='tag-delete-btn'>X</button>
+    </li>
+
   )
 }
