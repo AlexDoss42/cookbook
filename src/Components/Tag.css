@@ -8,3 +8,9 @@
     text-transform: uppercase;
     display: inline-block;
 }
+
+.tag-delete-btn {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
