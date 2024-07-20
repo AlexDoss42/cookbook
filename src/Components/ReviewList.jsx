@@ -1,5 +1,5 @@
 import React from 'react'
-import reviewData from './../review_data.json'
+import reviewsData from './../review_data.json'
 import { Review } from './Review'
 
 export const ReviewList = () => {
@@ -8,7 +8,7 @@ export const ReviewList = () => {
     <div className='section'>
       <h2>Read the reviews</h2>
       <ul className='ingredients-list'>
-          {reviewData.reviews.map((review_data) => {
+          {reviewsData.reviews.map((review_data) => {
             return<Review review_data={{review_data}} />
           })}
         </ul>
