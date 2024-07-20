@@ -8,7 +8,7 @@ export const ReviewList = () => {
     <div className='section'>
       <h2>Read the reviews</h2>
       <ul className='ingredients-list'>
-          {reviewData.map((review_data) => {
+          {reviewData.reviews.map((review_data) => {
             return<Review review_data={{review_data}} />
           })}
         </ul>
