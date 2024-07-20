@@ -1,10 +1,11 @@
 import React from 'react'
+import { StarRating } from './StarRating'
 
 export const Review = ( { review_data }) => {
     const { title, author, rating, review } = review_data.review_data
   return (
     <div>
-        <p>{rating}</p>
+        <StarRating rating={rating} />
         <h3>{title}</h3>
         <p>{author}</p>
         <p>{review}</p>
