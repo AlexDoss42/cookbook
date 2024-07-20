@@ -1,0 +1,12 @@
+{
+    "reviews": [
+        {
+            "id": 1,
+            "title": "SO GOOD!",
+            "author": "JIMBOOOO",
+            "author_id": 3,
+            "rating": 5,
+            "review": "HANDS DOWN one of the best meal prep meals I have ever had. I genuinely look forward to this burrito every single day!"
+        }
+    ]
+}
