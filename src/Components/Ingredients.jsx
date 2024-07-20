@@ -4,7 +4,7 @@ import './Ingredients.css'
 export const Ingredients = ({ Ingredients }) => {
   return (
     <div className='section'> 
-        <h3>Ingredients List</h3>
+        <h2>Ingredients List</h2>
         <ul className='ingredients-list'>
           {Ingredients.map((ingredient) => {
             return<li>{ingredient}</li>
