@@ -4,7 +4,8 @@
     flex-direction: column;
     justify-content: left;
     padding: 12px;
-    margin: 8px;
+    margin-top: 8px;
+    height: 200px;
 }
 
 .review-title {
@@ -26,4 +27,5 @@
 
 .review-text {
     text-align: left;
+    text-overflow: ellipsis;
 }

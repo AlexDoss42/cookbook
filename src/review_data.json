@@ -15,6 +15,14 @@
             "author_id": 1,
             "rating": 4,
             "review": "An incredibly solid side dish for any occasion."
+        },
+        {
+            "id": 2,
+            "title": "Delicious!",
+            "author": "Alex",
+            "author_id": 1,
+            "rating": 4,
+            "review": "An incredibly solid side dish for any occasion."
         }
     ]
 }
