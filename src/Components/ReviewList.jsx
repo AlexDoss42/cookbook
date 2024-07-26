@@ -8,11 +8,11 @@ export const ReviewList = () => {
   return (
     <div className='section'>
       <h2>Read the reviews</h2>
-      <ul className='review-list'>
+      <div className='review-list'>
           {reviewsData.reviews.map((review_data) => {
             return<Review review_data={{review_data}} />
           })}
-        </ul>
+        </div>
     </div>
   )
 }

@@ -1,4 +1,5 @@
 .review-list {
-    columns: 2;
-    list-style-position: inside;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
 }
