@@ -3,6 +3,15 @@
     display: flex;
     flex-direction: column;
     justify-content: left;
+    padding: 12px;
+}
+
+.review-title {
+    text-align: left;
+}
+
+.review-author {
+   text-align: left; 
 }
 
 .rating-date-container {
