@@ -6,11 +6,13 @@ export const Review = ( { review_data }) => {
     const { title, author, rating, review } = review_data.review_data
   return (
     <div className='review-container'>
-        <StarRating rating={rating} />
         <h3>{title}</h3>
         <p>{author}</p>
+        <div className='rating-date-container'>
+        <StarRating rating={rating} />
+        <span className='date'>date</span>
+        </div>
         <p>{review}</p>
-        <p>date</p>
     </div>
   )
 }
