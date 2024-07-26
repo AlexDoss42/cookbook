@@ -1,5 +1,6 @@
 .stars {
     list-style-type: none;
+    display: inline;
 }
 
 .star {

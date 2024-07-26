@@ -10,6 +10,7 @@ export const Review = ( { review_data }) => {
         <h3>{title}</h3>
         <p>{author}</p>
         <p>{review}</p>
+        <p>date</p>
     </div>
   )
 }
