@@ -12,7 +12,7 @@ export const Review = ( { review_data }) => {
         <StarRating rating={rating} />
         <span className='date'>date</span>
         </div>
-        <p>{review}</p>
+        <p className='review-text'>{review}</p>
     </div>
   )
 }

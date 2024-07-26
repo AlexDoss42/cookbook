@@ -1,6 +1,7 @@
 import React from 'react'
 import reviewsData from './../review_data.json'
 import { Review } from './Review'
+import './ReviewList.css'
 
 export const ReviewList = () => {
 

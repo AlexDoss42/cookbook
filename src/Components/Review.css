@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: left;
     padding: 12px;
+    margin: 8px;
 }
 
 .review-title {
@@ -21,4 +22,8 @@
 
 .date {
     padding-left: 12px;
+}
+
+.review-text {
+    text-align: left;
 }

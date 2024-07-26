@@ -7,6 +7,14 @@
             "author_id": 3,
             "rating": 5,
             "review": "HANDS DOWN one of the best meal prep meals I have ever had. I genuinely look forward to this burrito every single day!"
+        },
+        {
+            "id": 2,
+            "title": "Delicious!",
+            "author": "Alex",
+            "author_id": 1,
+            "rating": 4,
+            "review": "An incredibly solid side dish for any occasion."
         }
     ]
 }
