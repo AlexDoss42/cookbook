@@ -6,8 +6,8 @@ export const Time = ({ timeData }) => {
     <div className='section'> 
         <p>Total Time: {total}</p>
         <p>Additional Time: {additional}</p>
-        <p>Prep Time {prep}</p>
-        <p>cook Time {cook}</p>
+        <p>Prep Time: {prep}</p>
+        <p>cook Time: {cook}</p>
     </div>
   )
 }
