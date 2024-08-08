@@ -1,6 +1,7 @@
 #nutritionalFactsList {
     list-style-type: none;
     display: inline-block;
+    padding-inline-start: 0px;
 }
 
 #nutritionalFactsList li {
