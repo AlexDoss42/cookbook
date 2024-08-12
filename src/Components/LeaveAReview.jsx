@@ -5,6 +5,8 @@ export const LeaveAReview = () => {
     <div className='section'>
     <h3>Leave a review</h3>
     <input type='text' name='title' />
+    {/* place holder for 5 star rating component */}
+    <p>*****</p> 
     <textarea />
     </div>
   )
