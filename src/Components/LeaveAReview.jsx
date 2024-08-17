@@ -9,6 +9,7 @@ export const LeaveAReview = () => {
     {/* place holder for 5 star rating component */}
     <p>*****</p> 
     <textarea />
+    <button>Submit</button>
     </div>
   )
 }
